@@ -1,0 +1,302 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    background-color: #edf2f8;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+section {
+    width: 1100px;
+    height: 625px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    height: 325px;
+}
+
+section aside {
+    display: flex;
+}
+section .daniel {
+    width: 550px;
+    height: 300px;
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: left 350px top;
+    padding: 20px;
+    background-color: #733fc8;
+    border-radius: 10px;
+}
+section .daniel .info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+section .daniel .info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin-right: 10px;
+}
+section .daniel .info .name h2 {
+    color: #e0e0e0;
+}
+section .daniel .info .name p {
+    color: rgb(160, 160, 160);
+    font-size: 15px;
+}
+section .daniel strong {
+    color: #fff;
+    font-size: 18px;
+    line-height: 25px;
+}
+section .daniel .sub {
+    color: rgb(160, 160, 160);
+    line-height: 20px;
+    font-size: 13px;
+    margin-top: 10px;
+}
+section .walters {
+    width: 250px;
+    height: 300px;
+    background-color: #49556b;
+    border-radius: 10px;
+    padding: 20px;
+}
+.walters .info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.walters .info img {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.walters .info .name h2 {
+    color: #e0e0e0;
+}
+.walters .info .name p {
+    color: rgb(160, 160, 160);
+    font-size: 15px;
+}
+.walters strong {
+    color: #fff;
+    font-size: 18px;
+    line-height: 25px;
+}
+.walters .sub {
+    color: rgb(160, 160, 160);
+    line-height: 20px;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+section .kira {
+    width: 250px;
+    height: 575px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.kira .info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.kira .info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-right: 10px;
+}
+.kira .info .name h2 {
+    color: #000;
+}
+.kira .info .name p {
+    color: rgb(160, 160, 160);
+    font-size: 15px;
+}
+.kira strong {
+    color: #000;
+    font-size: 18px;
+    line-height: 25px;
+}
+.kira .sub {
+    color: rgb(160, 160, 160);
+    line-height: 21px;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+
+
+aside .harmon {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 25px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.harmon .info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.harmon .info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-right: 10px;
+}
+.harmon .info .name h2 {
+    color: #000;
+}
+.harmon .info .name p {
+    color: rgb(160, 160, 160);
+    font-size: 15px;
+}
+.harmon strong {
+    color: #000;
+    font-size: 18px;
+    line-height: 25px;
+}
+.harmon .sub {
+    color: rgb(160, 160, 160);
+    line-height: 23px;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+aside .abrams {
+    width: 550px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #18202d;
+}
+.abrams .info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.abrams .info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-right: 10px;
+}
+.abrams .info .name h2 {
+    color: #e0e0e0;
+}
+.abrams .info .name p {
+    color: rgb(160, 160, 160);
+    font-size: 15px;
+}
+.abrams strong {
+    color: #fff;
+    font-size: 18px;
+    line-height: 25px;
+}
+.abrams .sub {
+    color: rgb(160, 160, 160);
+    line-height: 18px;
+    font-size: 13px;
+    margin-top: 10px;
+}
+@media (max-width: 375px) {
+    main {
+        display: block;
+        height: auto;
+        margin: 0 auto;
+        width: 355px;
+    }
+    main .daniel {
+        width: 355px;
+        height: auto;
+        background-position: left 230px top;
+        margin-bottom: 20px;
+    }
+    main .walters {
+        width: 355px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    main .kira {
+        width: 355px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    aside {
+        display: block !important;
+        width: 355px;
+        margin: 0 auto;
+    }
+    aside .harmon {
+        width: 355px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    aside .abrams {
+        width: 355px;
+        height: auto;
+    }
+}
